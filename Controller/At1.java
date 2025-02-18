@@ -12,8 +12,8 @@ public class At1 {
 			return y;
 		}
 		else {
-			y -= 1;
-			return x +  multi_sem_mult(x, y);
+			
+			return x +  multi_sem_mult(x, y-1);
 			
 		}
 	}

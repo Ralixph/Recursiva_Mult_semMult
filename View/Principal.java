@@ -11,8 +11,8 @@ public class Principal {
 		int x = Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro valor"));
 		int y = Integer.parseInt(JOptionPane.showInputDialog("Insira o segundo valor"));
 		
-		int r = a.multi_sem_mult(x, y);
-		System.out.println(r);
+		//int r = a.multi_sem_mult(x, y);
+		System.out.println(a.multi_sem_mult(x, y));
 		
 
 	}
